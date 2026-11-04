@@ -1,13 +1,24 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Srijana Bhakri | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+</head>
+ <!-- class="font-['Inter',sans-serif] = This is Tailwind utility class combination Why do we include sans-serif?
+If for some reason a user's browser fails to load the Inter font (e.g., they have a bad internet connection, or they are offline), the browser needs to know what type of backup font to use.
+
+sans-serif tells the browser: "If you can't find Inter, pick any clean, modern sans-serif font available on the user's computer" (like Arial, Helvetica, or system default sans-serif). -->
+<body class="font-['Inter',sans-serif] bg-slate-900 text-slate-100">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>
